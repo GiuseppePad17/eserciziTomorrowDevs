@@ -1,8 +1,12 @@
-let totalSeconds = prompt("Inserisci i secondi totali")
+var secondi=prompt("inserisci il numero di secondi")
 
-let D;
-let HH;
-let MM;
-let SS;
+var days = secondi/86400;
+var hours = secondi / 3600;
+var minutes = secondi / 60;
+var seconds = secondi/1;
 
-//da completare
+
+console.log("giorni: "+days);
+console.log("ore: "+hours);
+console.log("minuti: "+minutes);
+console.log("secondi: "+seconds);
